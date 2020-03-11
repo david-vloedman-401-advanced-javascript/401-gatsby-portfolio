@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle: 'David Vloedman', // <title>
-  manifestName: 'Grayscale',
+  manifestName: 'portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/david-vloedman/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/img/favicon-32x32.png',
+  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'David Vloedman',
   subHeading: 'Full Stack Web Developer',
 

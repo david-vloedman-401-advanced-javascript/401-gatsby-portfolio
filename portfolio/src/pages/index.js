@@ -10,7 +10,7 @@ import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
+import demoImage1 from '../assets/images/pocketgallery.png';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
 
@@ -55,7 +55,7 @@ const IndexPage = () => (
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+        {/* <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
           </div>
@@ -69,20 +69,23 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <a href="http://www.pocketgallery.art/">
+              <img className="img-fluid" src={demoImage1} alt="" />
+            </a>
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Pocket Gallery</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    A simple app using the Harvard Art API.<br/>
+                    <a href="https://github.com/Renaissance-devs/pocket_gallery">GitHub</a>
+
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -99,11 +102,9 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Worthy Project</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    ... Hopefully soon
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
